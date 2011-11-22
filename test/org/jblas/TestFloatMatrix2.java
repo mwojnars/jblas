@@ -42,7 +42,7 @@ import junit.framework.TestCase;
 import java.util.Arrays;
 import static org.jblas.ranges.RangeUtils.*;
 
-public class TestFloatMatrix extends TestCase {
+public class TestFloatMatrix2 extends TestCase {
 
     FloatMatrix A, B, C, D, E, F;
 
