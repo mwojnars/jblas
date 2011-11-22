@@ -31,16 +31,19 @@ In all brevity, here is what you need to know to get started:
 
 * To access elements, you use @put@ and @get@. Methods also exist for
   reading or writing a whole column, row, or submatrix.
+  
+* Indexing is <em>zero</em>-based, both for linear access to elements 
+  and for indexing of columns and rows.
 
 * There exist only two-dimensional matrices. Vectors are matrices
   whose number of columns or rows are 1. This has turned out to be
-  much more convenient thatn having separated classes.
+  much more convenient than having separated classes.
 
 * Every math operator maps to a short mnemonic name. For example, +
   becomes @add@, - becomes @sub@, * becomes @mul@, / becomes @div@,
   and so on.
 
-* Often, you can pass a double or float value, or a matric with only
+* Often, you can pass a double or float value, or a matrix with only
   one element as the argument to a method, for example, to add the
   same value to all elements of the matrix.
 
