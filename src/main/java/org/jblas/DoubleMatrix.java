@@ -2980,7 +2980,7 @@ public class DoubleMatrix implements Serializable {
     return muli(other, this);
     }
 
-    /** Elementwise multiply by a matrix (in place). */
+    /** Elementwise multiply by a matrix. */
     public DoubleMatrix mul(DoubleMatrix other) {
     return muli(other, new DoubleMatrix(rows, columns));
     }
@@ -3000,7 +3000,7 @@ public class DoubleMatrix implements Serializable {
     return mmuli(other, this);
     }
 
-    /** Matrix-multiply by a matrix (in place). */
+    /** Matrix-multiply by a matrix. */
     public DoubleMatrix mmul(DoubleMatrix other) {
     return mmuli(other, new DoubleMatrix(rows, other.columns));
     }
